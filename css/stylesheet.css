@@ -1,0 +1,89 @@
+/* general */
+* {
+  font-family: 'McLaren', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://static.scientificamerican.com/sciam/cache/file/E00E5DC5-1F35-4256-9693D7CD448C302B_source.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#container {
+  width: 900px;
+  margin: auto;
+}
+
+/* header */
+.header-top {
+  height: 90px;
+  line-height: 90px;
+}
+
+.logo {
+  height: 90px;
+  vertical-align: middle;
+}
+
+.logo-title {
+  display: inline;
+  color: #ffffff;
+}
+
+.button-search {
+  text-align: center;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+/* main */
+.title-unread {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.title-unread span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #00c3ff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
+  box-sizing: content-box;
+}
+
+.email {
+  background-color: #bfc5c7;
+  border: 2px solid #000000;
+  padding: 3px;
+}
+
+.read {
+  background-color: #ffffff;
+}
+/* footer */
+.end-title {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+
+.end-title span {
+  display: inline;
+  font-style: oblique;
+  color: #ffffff;
+  font-size: 12px;
+}
