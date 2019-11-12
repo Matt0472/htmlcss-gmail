@@ -75,8 +75,11 @@ hr {
   background-color: #ffffff;
 }
 /* footer */
-.end-title {
+footer {
   color: #ffffff;
+}
+
+footer h3 {
   font-size: 25px;
   text-align: center;
 }
@@ -84,6 +87,5 @@ hr {
 .end-title span {
   display: inline;
   font-style: oblique;
-  color: #ffffff;
   font-size: 12px;
 }
